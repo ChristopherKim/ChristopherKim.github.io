@@ -1,0 +1,250 @@
+@import "header.css";
+@import "footer.css";
+
+@font-face {
+  font-family: 'Lato', sans-serif;
+  src:
+    local('Lato')
+    url("https://fonts.googleapis.com/css?family=Lato") format('truetype');
+}
+
+@media only screen and (min-width: 950px) {
+  img.logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: -9px;
+    margin-left: 10px;
+  }
+  .vline {
+    border-left: 3px solid #292E37;
+    height: 50px;
+    margin-bottom: -15px;
+    margin-left: 10px;
+  }
+  #title-1 {
+    margin-left: 10px;
+  }
+  #expand-button, #close-button {
+    display: none;
+  }
+
+  #nav-menu-1 {
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+  }
+  #nav-menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  img.logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: -9px;
+    margin-left: 10px;
+  }
+  .vline {
+    border-left: 3px solid #292E37;
+    height: 50px;
+    margin-bottom: -15px;
+    margin-left: 10px;
+  }
+  #title-1 {
+    margin-left: 10px;
+  }
+  #nav-menu-1 {
+    display: none;
+  }
+  a.nav-button {
+    font-size: 1em;
+    padding: 8px 8px 8px 32px;
+    text-align: right;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+  }
+  #expand-button {
+    margin-top: -18.5px;
+  }
+  #nav-button {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #title-1 {
+    display: none;
+  }
+  #Christopher {
+    margin-bottom: -20px;
+    margin-left: 10px;
+  }
+  #Kim {
+    margin-left: 10px;
+  }
+  img.logo {
+    width: 70px;
+    height: auto;
+    margin-bottom: -1px;
+    margin-left: 10px;
+  }
+  .vline {
+    border-left: 3px solid #292E37;
+    margin-bottom: -15px;
+    height: 50px;
+    margin-left: 10px;
+  }
+  #expand-button {
+    margin-right: 20px;
+    margin-top: -15px;
+  }
+  div.close-button {
+    margin-top: 25px;
+    margin-left: 47px;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  #title-2 {
+    display: none;
+  }
+}
+
+/* General CSS */
+body {
+  background-color: #F0F8FF;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 20px;
+  color: #292E37;
+}
+h1 {
+  font-size: 1.7em;
+  -webkit-margin-before: 0.5em;
+  -webkit-margin-after: 0.5em;
+}
+h2 {
+  font-size: 1.5em;
+  -webkit-margin-before: 0.5em;
+  -webkit-margin-after: 0.5em;
+}
+h3 {
+  font-size: 1.3em;
+  -webkit-margin-before: 0.5em;
+  -webkit-margin-after: 0.5em;
+  font-weight: 300;
+}
+h4 {
+  font-size: 1.2em;
+  -webkit-margin-before: 0.5em;
+  -webkit-margin-after: 0.5em;
+  font-weight: 300;
+}
+h5 {
+  font-size: 1.1em;
+  -webkit-margin-before: 0.5em;
+  -webkit-margin-after: 0.5em;
+  font-weight: 300;
+}
+h6 {
+  font-size: 1em;
+  -webkit-margin-before: 0.5em;
+  -webkit-margin-after: 0.5em;
+  font-weight: 300;
+}
+p {
+  font-size: 0.9em;
+  -webkit-margin-before: 1.1em;
+  -webkit-margin-after: 1.1em;
+  font-weight: 300;
+}
+.bold {
+  font-weight: bold;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-justify {
+  text-align: justify;
+}
+
+/* Div CSS */
+div.banner {
+  background-color: #1D2951;
+  color: #F0F8FF;
+  margin: -8px -10px 10px -10px;
+}
+div.one {
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 35px;
+}
+div.two {
+  width: 425px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 5px;
+  border: solid 1.5px #292E37;
+  background-color: #C8D0D2;
+}
+div.two-one {
+  width: 35%;
+  margin: 0 auto;
+}
+div.two-two {
+  width: 45%;
+  margin: 0 auto;
+}
+div.three {
+  width: 90%;
+}
+div.four {
+  width: 225px;
+  margin: 0 auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 5px;
+  border: solid 1.5px #292E37;
+  background-color: #C8D0D2;
+}
+div.social-media {
+  margin-top: 10px;
+}
+
+/* Additional CSS */
+.container {
+  display: inline-block;
+  width: 100%;
+}
+.row {
+  white-space: nowrap;
+  float: left;
+  display: flex;
+}
+.row > div {
+  display: inline-block;
+  white-space : normal;
+}
+i.fab {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+a.social-media {
+  color: #F0F8FF;
+}
+img.headshot {
+  width: 30%;
+  border-radius: 100px;
+  border: 2px solid #1D2951;
+}

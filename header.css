@@ -1,0 +1,68 @@
+hr.header {
+  width: 100%;
+  height: 0px;
+  background: #1D2951;
+  border: 0;
+  margin-top: 90px;
+}
+div.header {
+  background-color: #C8D0D2;
+  padding-top: 30px;
+  margin: -10px -10px 0px -10px;
+}
+a.nav-button {
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 1.5em;
+  color: #292E37;
+}
+.bar1, .bar2, .bar3 {
+  width: 30px;
+  height: 5px;
+  background-color:	#802135;
+  margin: 6px 0 0;
+}
+.bar {
+  margin-top: 37px;
+}
+#expand-button {
+  float: right;
+  margin-right: 30px;
+  cursor: pointer;
+  position: relative;
+  transition: 1s;
+}
+#nav-menu {
+  height: 0%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #F9D2BD;
+  overflow-x: hidden;
+  padding-top: 10px;
+  transition: 0.5s;
+}
+div.close-button {
+  cursor: pointer;
+  font-weight: bold;
+  display: block;
+  line-height: 0px;
+  transition: 0.3s;
+  margin-top: 35px;
+  margin-left: 38px;
+}
+.close-button:before {
+  content: "×";
+  color: #802135;
+  font-size: 65px;
+}
+.header-row {
+  white-space: nowrap;
+  float: left;
+}
+.header-row > div {
+  display: inline-block;
+  white-space : normal;
+}
