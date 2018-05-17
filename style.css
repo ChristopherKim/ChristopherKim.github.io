@@ -9,16 +9,22 @@
 }
 
 @media only screen and (min-width: 950px) {
+  div.banner-text, div.social-media, div.about-me-1, div.about-me-2 {
+    width: 450px;
+  }
   img.logo {
     width: 100px;
     height: auto;
     margin-bottom: -9px;
     margin-left: 10px;
   }
+  img.headshot {
+    width: 170px;
+  }
   .vline {
     border-left: 3px solid #292E37;
-    height: 50px;
-    margin-bottom: -15px;
+    height: 40px;
+    margin-bottom: -10px;
     margin-left: 10px;
   }
   #title-1 {
@@ -39,16 +45,22 @@
 }
 
 @media only screen and (max-width: 950px) {
+  div.banner-text, div.social-media, div.about-me-1, div.about-me-2 {
+    width: 450px;
+  }
   img.logo {
     width: 100px;
     height: auto;
     margin-bottom: -9px;
     margin-left: 10px;
   }
+  img.headshot {
+    width: 170px;
+  }
   .vline {
     border-left: 3px solid #292E37;
-    height: 50px;
-    margin-bottom: -15px;
+    height: 40px;
+    margin-bottom: -10px;
     margin-left: 10px;
   }
   #title-1 {
@@ -74,6 +86,12 @@
 }
 
 @media only screen and (max-width: 500px) {
+  div.social-media, div.about-me-1, div.about-me-2 {
+    width: 100%;
+  }
+  div.header, div.banner, footer {
+    width: 500px;
+  }
   #title-1 {
     display: none;
   }
@@ -90,15 +108,18 @@
     margin-bottom: -1px;
     margin-left: 10px;
   }
+  img.headshot {
+    width: 170px;
+  }
   .vline {
     border-left: 3px solid #292E37;
-    margin-bottom: -15px;
-    height: 50px;
+    height: 40px;
+    margin-bottom: -10px;
     margin-left: 10px;
   }
   #expand-button {
     margin-right: 20px;
-    margin-top: -15px;
+    margin-top: -22px;
   }
   div.close-button {
     margin-top: 25px;
@@ -116,45 +137,44 @@
 body {
   background-color: #F0F8FF;
   font-family: 'Lato', sans-serif;
-  margin-bottom: 20px;
   color: #292E37;
 }
 h1 {
-  font-size: 1.7em;
+  font-size: 1.6em;
   -webkit-margin-before: 0.5em;
   -webkit-margin-after: 0.5em;
 }
 h2 {
-  font-size: 1.5em;
+  font-size: 1.4em;
   -webkit-margin-before: 0.5em;
   -webkit-margin-after: 0.5em;
 }
 h3 {
-  font-size: 1.3em;
-  -webkit-margin-before: 0.5em;
-  -webkit-margin-after: 0.5em;
-  font-weight: 300;
-}
-h4 {
   font-size: 1.2em;
   -webkit-margin-before: 0.5em;
   -webkit-margin-after: 0.5em;
   font-weight: 300;
 }
-h5 {
+h4 {
   font-size: 1.1em;
   -webkit-margin-before: 0.5em;
   -webkit-margin-after: 0.5em;
   font-weight: 300;
 }
-h6 {
+h5 {
   font-size: 1em;
   -webkit-margin-before: 0.5em;
   -webkit-margin-after: 0.5em;
   font-weight: 300;
 }
-p {
+h6 {
   font-size: 0.9em;
+  -webkit-margin-before: 0.5em;
+  -webkit-margin-after: 0.5em;
+  font-weight: 300;
+}
+p {
+  font-size: 0.8em;
   -webkit-margin-before: 1.1em;
   -webkit-margin-after: 1.1em;
   font-weight: 300;
@@ -179,47 +199,65 @@ p {
 div.banner {
   background-color: #1D2951;
   color: #F0F8FF;
-  margin: -8px -10px 10px -10px;
+  margin: -8px -10px 20px -10px;
 }
-div.one {
-  margin: 0 auto;
+div.banner-text {
   padding-top: 15px;
-  padding-bottom: 35px;
-}
-div.two {
-  width: 425px;
   margin: 0 auto;
-  padding-left: 15px;
+}
+div.intro-text {
+  width: 55%;
+  padding-right: 10px;
+}
+div.intro-headshot {
+  width: 45%;
+  padding-left: 10px;
+}
+div.social-media {
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+div.social-media-text {
+  margin-top: 20px;
+}
+div.social-media-icons {
+  margin: 0 auto;
+  width: 50%;
+  padding-left: 40px;
+}
+div.about-me-1 {
+  margin: 0 auto;
+}
+div.who-am-i {
+  width: 50%;
   padding-bottom: 10px;
   padding-top: 10px;
-  border-radius: 5px;
-  border: solid 1.5px #292E37;
-  background-color: #C8D0D2;
+  background-color: #F9D2BD;
 }
-div.two-one {
-  width: 35%;
-  margin: 0 auto;
+div.about-me-title {
+  text-align: center;
 }
-div.two-two {
+div.about-me-column {
   width: 45%;
   margin: 0 auto;
 }
-div.three {
+div.about-me-row {
   width: 90%;
 }
-div.four {
-  width: 225px;
-  margin: 0 auto;
-  padding-left: 5px;
-  padding-right: 5px;
+div.skills {
+  width: 50%;
   padding-bottom: 10px;
   padding-top: 10px;
-  border-radius: 5px;
-  border: solid 1.5px #292E37;
-  background-color: #C8D0D2;
+  background-color: #DCF0F7;
 }
-div.social-media {
-  margin-top: 10px;
+div.about-me-2 {
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: #DCF8C6;
+}
+div.fun-facts {
+  width: 100%;
 }
 
 /* Additional CSS */
@@ -236,15 +274,39 @@ div.social-media {
   display: inline-block;
   white-space : normal;
 }
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+.centered-row {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  white-space: nowrap;
+}
+.centered-row > div {
+  display: inline-block;
+  white-space : normal;
+}
 i.fab {
   margin-left: 10px;
   margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.social-media-blog {
+  display: flex;
+  white-space: nowrap;
+  margin-top: 9px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 2px;
+  font-weight: 400;
 }
 a.social-media {
   color: #F0F8FF;
 }
-img.headshot {
-  width: 30%;
-  border-radius: 100px;
-  border: 2px solid #1D2951;
+a.link {
+  color: #292E37;
+  text-decoration: underline;
 }

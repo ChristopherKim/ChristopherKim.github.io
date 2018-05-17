@@ -7,13 +7,12 @@ hr.header {
 }
 div.header {
   background-color: #C8D0D2;
-  padding-top: 30px;
   margin: -10px -10px 0px -10px;
 }
 a.nav-button {
   text-decoration: none;
   margin-right: 15px;
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #292E37;
 }
 .bar1, .bar2, .bar3 {

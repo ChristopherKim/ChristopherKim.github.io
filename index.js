@@ -1,5 +1,5 @@
 function setViewPort() {
-  if($(window).width() < 300) {
+  if($(window).width() < 400) {
         x=1;
         if(x==1)
       {

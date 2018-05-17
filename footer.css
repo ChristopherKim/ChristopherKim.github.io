@@ -1,8 +1,7 @@
 footer {
   position: absolute;
-  bottom: 0;
   left: 0;
-  padding-right: 5px;
+  padding-right: 2px;
   background-color: #1D2951;
   width: 100%;
 }
@@ -13,9 +12,15 @@ hr.footer {
   top: 0;
   margin-top: -2px;
   border: 0;
+  position: relative;
 }
 p.footer-text {
-  padding-left: 10px;
+  padding-left: 15px;
   font-weight: 400;
   color: #F0F8FF;
+}
+div.footer-music {
+  float: right;
+  margin-top: 12px;
+  margin-right: 5px;
 }
