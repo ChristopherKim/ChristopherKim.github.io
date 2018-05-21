@@ -11,6 +11,15 @@ header {
     margin-right: 20px;
     margin-top: 15px;
   }
+  a.nav-button:hover {
+    color: #F0F8FF;
+  }
+  a.selected-button {
+    padding: 20px 10px 20px 10px;
+  }
+  a.selected-button:hover {
+    color: #F0F8FF;
+  }
   #nav-menu {
     display: none;
   }
@@ -26,7 +35,19 @@ header {
     display: block;
     transition: 0.3s;
   }
-
+  a.nav-button:hover {
+    color: #F0F8FF;
+  }
+  a.selected-button {
+    font-size: 0.8em;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+    padding: 8px 8px 8px 24px;
+  }
+  a.selected-button:hover {
+    color: #F0F8FF;
+  }
   #nav-button {
     margin-top: 5px;
   }
@@ -53,7 +74,19 @@ a.nav-button {
   margin-right: 10px;
   font-size: 1.2em;
   color: #292E37;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
 }
+a.selected-button {
+  text-decoration: none;
+  background-color: #802135;
+  margin-right: 10px;
+  font-size: 1.2em;
+  color: #F0F8FF;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
 .bar1, .bar2, .bar3 {
   width: 30px;
   height: 5px;
