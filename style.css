@@ -142,6 +142,10 @@ section.project {
   height: auto;
   overflow: auto;
 }
+section.contact {
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
 
 /* Div CSS */
 div.banner-text {
@@ -222,6 +226,12 @@ div.project-description {
   padding-bottom: 5px;
   background-color: white;
 }
+div.contact {
+  width: 50%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: #DCF0F7;
+}
 
 /* Additional CSS */
 .container {
@@ -271,6 +281,7 @@ a.social-media {
   color: #F0F8FF;
 }
 a.link {
-  color: #292E37;
-  text-decoration: underline;
+  color: #802135;
+  text-decoration: none;
+  font-weight: bold;
 }
