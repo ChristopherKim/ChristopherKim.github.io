@@ -131,7 +131,6 @@ section.about-me-1 {
 section.about-me-2 {
   margin: 0 auto;
   padding-bottom: 10px;
-  background-color: #DCF8C6;
   min-height: 200px;
 }
 section.project {
@@ -178,8 +177,8 @@ div.social-media-icons {
 div.who-am-i {
   width: 50%;
   padding-bottom: 10px;
-  padding-top: 10px;
-  background-color: #F9D2BD;
+  padding-top: 15px;
+  background: linear-gradient(to bottom right, #EE8262, #F9D2BD);
 }
 div.about-me-title {
   text-align: center;
@@ -193,12 +192,14 @@ div.about-me-row {
 }
 div.skills {
   width: 50%;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  background-color: #DCF0F7;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background: linear-gradient(to bottom right, #86C67C, #B4D7BF);
 }
 div.fun-facts {
   width: 100%;
+  padding-top: 15px;
+  background: linear-gradient(to bottom right, #A4D3EE, #DBE6E0);
 }
 div.project{
   margin-bottom: 10px;
@@ -233,7 +234,7 @@ div.contact {
   width: 50%;
   min-width: 300px;
   padding: 10px;
-  background-color: #DCF0F7;
+  background: linear-gradient(to bottom right, #DCF0F7, #C8D0D2);
 }
 
 /* Additional CSS */
