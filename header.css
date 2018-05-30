@@ -1,5 +1,6 @@
 header {
   background-color: #C8D0D2;
+  min-height: 50px;
 }
 
 @media only screen and (min-width: 700px) {
