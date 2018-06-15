@@ -8,13 +8,12 @@
     url("https://fonts.googleapis.com/css?family=Lato") format('truetype');
 }
 
-@media only screen and (min-width: 600px) {
-  div.banner-text, div.social-media {
+@media only screen and (min-width: 700px) {
+  div.banner-text {
     width: 650px;
   }
   section.about-me-1, section.about-me-2 {
-    max-width: 700px;
-    width: 80%;
+    width: 700px;
   }
   div.project {
     width: 80%;
@@ -25,16 +24,10 @@
   img.headshot {
     width: 90%;
   }
-  div.text-2 {
-    display: none;
-  }
-  div.social-media-icons {
-    padding-left: 140px;
-  }
 }
-@media only screen and (max-width: 600px) {
-  div.social-media, section.about-me-1, section.about-me-2 {
-    width: 100%;
+@media only screen and (max-width: 700px) {
+  section.about-me-1, section.about-me-2 {
+    min-width: 650px;
   }
   div.project {
     width: 95%;
@@ -42,20 +35,14 @@
   div.project-description {
     width: 91%;
   }
-  header, section.banner, footer {
-    width: 500px;
+  section.about-me-1, section.about-me-2, header, section.banner, footer {
+    min-width: 700px;
   }
   img.headshot {
     width: 90%;
     padding-top: 10px;
   }
   div.intro-text {
-    padding-left: 10px;
-  }
-  div.text-1 {
-    display: none;
-  }
-  div.social-media-icons {
     padding-left: 10px;
   }
 }
@@ -129,8 +116,8 @@ p {
   text-align: justify;
 }
 .text-intro {
-  max-width: 350px;
-  text-align: right;
+  max-width: 400px;
+  text-align: left;
 }
 
 /* Section CSS*/
@@ -146,12 +133,12 @@ section.banner {
 }
 section.about-me-1 {
   margin: 0 auto;
-  min-height: 250px;
+  min-height: 350px;
 }
 section.about-me-2 {
   margin: 0 auto;
   padding-bottom: 10px;
-  min-height: 250px;
+  min-height: 350px;
 }
 section.project {
   flex-direction: row;
@@ -175,39 +162,53 @@ div.banner-text {
   margin: 0 auto;
 }
 div.intro-text {
-  width: 55%;
-  padding-right: 10px;
+  width: 300px;
+  padding: 10px;
+  padding-left: 20px;
+  margin-top: 30px;
+  position: absolute;
+  background-color: #F0F8FF;
+  color: #292E37;
+}
+div.intro-title {
+  width: 220px;
+  height: relative;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #802135;
+  color: #F0F8FF;
+  text-align: center;
+  margin-left: -40px;
 }
 div.intro-headshot {
-  width: 35%;
-  padding-left: 10px;
-}
-div.text-1 {
-  width: 100%;
-}
-div.text-2 {
-  width: 90%;
-  margin: 0 auto;
+  width: 400px;
+  padding-left: 300px;
 }
 div.social-media {
   margin: 0 auto;
   margin-bottom: 5px;
+  width: 100%;
 }
 div.social-media-text {
   margin-top: 20px;
 }
 div.social-media-icons {
   margin: 0 auto;
-  width: 50%;
-}
-div.who-am-i {
-  width: 50%;
-  padding-bottom: 10px;
-  padding-top: 15px;
-  background: linear-gradient(to bottom right, #EE8262, #F9D2BD);
+  width: 100px;
+  padding-right: 85px;
 }
 div.about-me-title {
+  width: 220px;
+  height: relative;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #802135;
+  color: #F0F8FF;
   text-align: center;
+  margin-left: -15px;
+}
+div.about-me-text {
+  padding-top: 20px;
 }
 div.about-me-column {
   width: 45%;
@@ -216,23 +217,39 @@ div.about-me-column {
 div.about-me-row {
   width: 90%;
 }
-div.areas-of-focus {
-  width: 50%;
-  padding-bottom: 30px;
+div.who-am-i {
+  width: 350px;
+  height: 300px;
   padding-top: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background: linear-gradient(to bottom right, #EE8262, #F9D2BD);
+}
+div.areas-of-focus {
+  width: 350px;
+  height: 300px;
+  padding-top: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
   background: linear-gradient(to bottom right, #86C67C, #B4D7BF);
 }
 div.skills {
-  width: 50%;
+  width: 350px;
+  height: 300px;
   padding-top: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
   background: linear-gradient(to bottom right, #FFDEAD, #FAF0E6);
 }
 div.fun-facts {
-  width: 50%;
+  width: 350px;
+  height: 300px;
   padding-top: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
   background: linear-gradient(to bottom right, #A4D3EE, #DBE6E0);
 }
-div.project{
+div.project {
   margin-bottom: 10px;
   max-width: 700px;
 }
@@ -262,9 +279,9 @@ div.project-description {
   background-color: white;
 }
 div.contact {
-  width: 50%;
-  min-width: 300px;
-  padding: 10px;
+  min-width: 700px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background: linear-gradient(to bottom right, #DCF0F7, #C8D0D2);
 }
 
